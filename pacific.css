@@ -1,52 +1,91 @@
 body {
-	background-color: #ffffff;
+	background-color: #90c7e3;	
 	color: #666666;
-	font-family: Arial, Helvetica, sans-serif;  
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: linear-gradient(to bottom, #ffffff, #90c7e3);
+	background-repeat: no-repeat;
 }
 header {
 	background-color: #002171;
 	color: #ffffff;
-	background-image: url(images/sunset.jpg); 
-	background-position: right;	
-	background-repeat: no-repeat;	
-	line-height: 400%;		
-	text-indent: 1em;				
+	background-image: url(images/sunset.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+	height: 60px;
+	text-align: center;
+	padding-top: 15px;
 }
 nav {
-	background-color: #bbdefb;
-	font-weight: bold;	
+	background-color: #ffffff; 
+	font-weight: bold;
+	text-align: center;	
+	padding: 1em;	
 }
-nav a {	  
+nav a {
 	text-decoration: none;
 }
 h1 {
+	margin-top: 0;
 	margin-bottom: 0;
-	font-family: Georgia, "Times New Roman", serif; 
+	font-family: Georgia, "Times New Roman", serif;
 }
 h2 {
 	color: #1976d2;
-	font-family: Georgia, "Times New Roman", serif; 
+	font-family: Georgia, "Times New Roman", serif;
+	text-shadow: 1px 1px 1px #cccccc;  
 }
-h3 {	   
+h3 {
 	color: #000033;
-	font-family: Georgia, "Times New Roman", serif; 
+	font-family: Georgia, "Times New Roman", serif;
 }
 dt {
 	color: #002171;
 }
 .resort {
 	color: #1976d2;
-	font-weight: bold;	
+	font-weight: bold;
 }
 ul {
 	list-style-image: url(images/marker.gif);
 }
 footer {
-	font-size: 75%;
+	padding: 2em; 
+	font-size: 75%; 
 	font-style: italic;
 	text-align: center;
 	font-family: Georgia, "Times New Roman", serif;
 }
 #contact {
 	font-size: 90%;
+}
+#wrapper {
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	background-color: #ffffff;
+	min-width: 960px;
+	max-width: 2048px;
+	box-shadow: 3px 3px 3px #333333;
+}
+main {
+	padding: 1px 20px 20px 20px;
+	display: block;
+}
+#homehero {
+	height: 300px;
+	background-image: url(images/coast.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#yurthero {
+	height: 300px;
+	background-image: url(images/yurt.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#trailhero {
+	height: 300px;
+	background-image: url(images/trail.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
