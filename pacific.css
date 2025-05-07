@@ -135,7 +135,10 @@ section {
 	padding-left: 2em;
 	padding-right: 2em;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> dev/yurts
 #special {
 	clear: both;
 }
@@ -156,6 +159,7 @@ td {
 tr:nth-of-type(odd) {
 	background-color: #bddff0;
 }
+<<<<<<< HEAD
 label {
 	float: left;
 	display: block;
@@ -170,3 +174,6 @@ input, textarea {
 input[type="submit"] {
 	margin-left: 140px;
 }
+=======
+
+>>>>>>> dev/yurts
